@@ -6,4 +6,6 @@ for line in sys.stdin:
         # remove leading and trailing whitespace
         line = line.strip()
 
-	# TODO: Students to output <lineLength, 1>
+	# Students to output <lineLength, 1>
+	lineLength = len(line.split())
+	print '%s\t%s' % (lineLength, 1)
